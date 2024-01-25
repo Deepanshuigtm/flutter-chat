@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "822320074816",
+    "project_id": "authentication-b7629",
+    "storage_bucket": "authentication-b7629.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822320074816:android:2faaf9b44a58fc06544fa5",
+        "android_client_info": {
+          "package_name": "com.example.chat_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9nckB_JBDYi1OUvWDTT8sH5YLthu5c1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822320074816:android:883b521aaa199dbc544fa5",
+        "android_client_info": {
+          "package_name": "com.example.phone_otp_ui"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9nckB_JBDYi1OUvWDTT8sH5YLthu5c1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
