@@ -29,7 +29,7 @@ class _AuthScreenState extends State<AuthScreen> {
     final isValid = _form.currentState!.validate();
 
     if (!isValid || !_isLogin && _selectedImage == null) {
-      // show error message ...
+      print('Please Select Image');
       return;
     }
 
@@ -57,8 +57,9 @@ class _AuthScreenState extends State<AuthScreen> {
       }
     } on FirebaseAuthException catch (error) {
       if (error.code == 'email-already-in-use') {
-        // ...
+        print('USER ALREADY IN USE');
       }
+      print(error.message);
       ScaffoldMessenger.of(context).clearSnackBars();
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
