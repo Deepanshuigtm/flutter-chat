@@ -16,14 +16,14 @@ class ChatScreen extends StatelessWidget{
             onPressed: (){
               FirebaseAuth.instance.signOut();
             },
-            icon: Icon(Icons.exit_to_app)
+            icon: const Icon(Icons.exit_to_app)
         )
         ],
       ),
       body: Column(
         children: [
           Expanded(child: ChatMessages(),),
-          NewMessages(),
+          NewMessage(),
         ],
       )
     );
